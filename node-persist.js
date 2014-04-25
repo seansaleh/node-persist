@@ -318,7 +318,6 @@ var parseFile = function (key) {
 
 
 var getFilename = function (key) {
-console.log(key);
     if(options.encodeFilename) {
         return path.join(options.dir, new Buffer(key).toString('base64'));
     }
